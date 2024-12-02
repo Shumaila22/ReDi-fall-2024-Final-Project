@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Final Project</title>
+        <link rel="stylesheet"  href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <!------- Header Section------------>
+     
+      <nav class="navbar">
+        <h1>Double Roasted</h1>
+        <ul class="nav-links">
+          <li><a href="#shops">Shops</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Home">Home</a></li>
+        </ul>
+        <div class="cart-icon-container">
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+          <button id="cart-icon">
+            <span id="cart-count">0</span>
+          </button>
+        </div>
+      </nav>
+       
+   
+
+  <!-- Cart Window -->
+
+  
+  
+  <div id="cart-window" class="cart hidden">
+    <h2>Your Cart</h2>
+    
+    <ul id="cart-items"></ul>
+    <p id="total-price">Total: $0</p>
+    <button id="close-cart">proceed to check out</button>
+  </div>
+     
+   
+      <!------- Home Section ------------>
+      <section class="home" id="home">
+        <div class="content">
+          <h3>Where every sip feels <br> like home</h3>
+          <p>we’re passionate about bringing you the finest, freshly roasted coffee from Ethiopia and Colombia Whether you're brewing at home, in the office, or a coffee shop, we have the perfect beans for every taste.
+
+          </p>
+          <div><button class="about-btn">Learn More</button></div>
+          </div>
+          
+        </section>
+        <!-------about Section ------------>
+        <section class="about" id="about">
+
+          <h1 class="heading"> <span> </span> </h1>
+
+          <div class="row">
+
+            <div class="image">
+              <img src="images/about-us.jpg">
+            </div>
+
+            <div class="content">
+              <h3>About Us</h3>
+              <p>
+                At Double Roasted, we believe that coffee is more than a drink—it is  an experience, a ritual, and a connection to the world.
+                Founded in 2019, our journey began in a cozy corner of Copenhagen with a simple mission: to create coffee that celebrates the
+                hard work of farmers, the artistry of roasting, and the joy of sharing a perfect cup.
+                Our coffee starts its journey on carefully selected farms in Ethiopia, where farmers
+                cultivate the finest beans using sustainable practices. We partner directly with these farmers, ensuring fair wages and supporting
+                their communities while sourcing beans of exceptional quality.
+                We use a double-roasting method to bring out deep, complex flavors that highlight the unique 
+                character of its origin. Our small-batch roasting ensures consistency, care, and the perfect balance in every cup.
+
+              </p>
+              
+              <a href="#" class="btn">
+                <buton class="button">Learn More</buton></a>
+            </div>
+          </div>
+        </section>
+        <!-------menu ------------>
+        
+
+            
+        <h1 class="heading">Buy at Store</h1>
+
+        <div id="products" class="product-grid">
+          
+          <div class="product-card" data-id="1">
+            <img src="images/product.png" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Price: $10</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card" data-id="2">
+            <img src="images/product.png" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>Price: $15</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card" data-id="3">
+            <img src="images/product.png" alt="Product 3">
+            <h2>Product 3</h2>
+            <p>Price: $20</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card" data-id="4">
+            <img src="images/product.png" alt="Product 4">
+            <h2>Product 4</h2>
+            <p>Price: $25</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-------footer ------------>
+        <footer class="footer">
+          <div class="footer-top">
+              <div class="column">
+                  <h3 class="column-h3">Inspection Report</h3>
+                  <p>Valby st.</p>
+                  <p>Langgade st.</p>
+                  <p>Flintholm st.</p>
+                  <p>Carlsberg Byen</p>
+              </div>
+              <div class="column">
+                  <h3 class="column-h3">Policies</h3>
+                  <p>Privacy Policy</p>
+                  <p>Terms & Conditions</p>
+                  <p>Shipping Policy</p>
+                  <p>Refund Policy</p>
+                  <p>Terms of Services</p>
+              </div>
+              <div class="column">
+                  <h3 class="column-h3">Address</h3>
+                  <p>Jensens Allé 45, 2. th. <br> 2100 Kobenhavn ø <br> Danmark</p>
+              </div>
+              <div class="column">
+                  <h3 class="column-h3"> CONTACTS</h3>
+                  <P>eksemple@falskemail.dk <br> +45 12 34 56 78</P>
+              </div>
+              <div class="column-5">
+                  <img class="map" src="images/map.png">
+              </div>
+          </div>
+      </footer>
+        
+      
+      <!-- footer section ends -->
+      
+      
+      
+      
+      
+      
+      
+
+            
+        
+        
+
+
+
+        
+    <script src="./script.js"></script>
+    </body>
+   
+  
+  
+</html>
