@@ -78,7 +78,7 @@ body{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(/images/coffeeBeans.png);
+  background: url(coffeeBeans.png);
   background-size: cover;
   background-position: center;
   text-align: center;
